@@ -18,3 +18,5 @@ Go is not really a object oriented programming language
 2. run the command `go run main.go`
 
 ### go help
+
+### go env

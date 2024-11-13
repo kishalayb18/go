@@ -8,6 +8,9 @@
 - run `go build` command
 - this will create the binary file based on the module name you have provided, here `hello-module`
 - from terminal run it with `./<binary name>`, here `./hello-module`
+> **GOOS** is a flag in the _go build_ command, to build a binary for windows while working on mac we can run
+> GOOS="windows" go build
+> this will generate the binary for windows 
 
 ## Why "main" package name is important
 The `main` package name tells Go that this is the entry point of the program, if Go does not find a package name called **_main_** then during `go build` it will not generate any binary file
