@@ -30,6 +30,7 @@ func main() {
 	fmt.Println("\n")
 
 	// similar to while
+	fmt.Println("similar to while")
 	v1, v2 := 1, 10
 	for v1 <= 10 && v2 >= 1 {
 		fmt.Printf("values of v1 = %v, v2 = %v\n", v1, v2)
